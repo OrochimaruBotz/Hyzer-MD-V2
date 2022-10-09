@@ -12,9 +12,9 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
 
 
 conn.reply(m.chat, info, m, { quoted: fakes },{ contextInfo: { externalAdReply: { showAdAttribution: true,
-      mediaUrl: "https://Instagram.com/Xiao_yan_21",
+      mediaUrl: "https://github.com/OrochimaruBotz",
       mediaType: 2,
-      description: "https://Instagram.com/Xiao_yan_21", 
+      description: "https://github.com/OrochimaruBotz", 
       title: global.titlebot,
       body: wm,
       thumbnail: thumb,
@@ -22,7 +22,7 @@ conn.reply(m.chat, info, m, { quoted: fakes },{ contextInfo: { externalAdReply: 
 
 }
 
-handler.customPrefix = /^(tes|bot|gojo|test)$/i
+handler.customPrefix = /^(tes|bot|gojobot|gojo|test)$/i
 
 handler.command = new RegExp
 
